@@ -1,7 +1,6 @@
 
 import asyncio
-import aiohttp  # Requires installing: pip insta
-ll aiohttp
+import aiohttp  # Requires installing: pip install aiohttp
 from random import randint
 
 async def fetch_url(session, url):
