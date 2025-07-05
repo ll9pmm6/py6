@@ -1,6 +1,7 @@
 
 import asyncio
-import aiohttp  # Requires installing: pip install aiohttp
+import aiohttp  # Requires installing: pip insta
+ll aiohttp
 from random import randint
 
 async def fetch_url(session, url):
@@ -24,7 +25,7 @@ async def main():
     ad ="https://www.profitableratecpm.com/e448i84bx?key=c52b15369f8988b9a0c8a7dbdfbe84f4"
     for api in apis:
         for _ in range(randint (3,5)):
-            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=il&render_js=1"
+            url = f"https://api.webscrapingapi.com/v2?api_key=Tt9wljgaJPFEJytneHc4WUzn5LeDuB8M&url=https%3A%2F%2Fwww.profitableratecpm.com%2Fbygzdn8ti5%3Fkey%3Dac2134fc257fcbc83800d460291ac1ab&country=il&render_js=1"
             urls.append(url)
 
     async with aiohttp.ClientSession() as session:
