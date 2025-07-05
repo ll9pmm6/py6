@@ -18,13 +18,13 @@ async def main():
     """Creates an aiohttp session and fetches multiple URLs concurrently."""
     urls = list()
     apis =[
-        "1gMI7Z8t6uqILrY1aTA8OJKDcFn3GpdXto","LaNu0TTFOOYdFPEk9niHTcp1GWetwth9"]
+        "Tt9wljgaJPFEJytneHc4WUzn5LeDuB8M"]
     #ad ="https://www.effectiveratecpm.com/ca83bzpx98?key=dee9c6f3171b614287718132222041ad"
     #ad = "https://www.profitableratecpm.com/zhzbtigdvk?key=bfdf77a1bedb6a88e866ad888aa3896b"
     ad ="https://www.profitableratecpm.com/e448i84bx?key=c52b15369f8988b9a0c8a7dbdfbe84f4"
     for api in apis:
         for _ in range(randint (3,5)):
-            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=us&render_js=1"
+            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=il&render_js=1"
             urls.append(url)
 
     async with aiohttp.ClientSession() as session:
