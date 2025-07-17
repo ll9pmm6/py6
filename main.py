@@ -42,6 +42,6 @@ async def main():
 
 
 if __name__ == "__main__":
-   for i in range (1000):
+   for i in range (1):
      print(i)
      asyncio.run(main())
