@@ -18,13 +18,13 @@ async def main():
     """Creates an aiohttp session and fetches multiple URLs concurrently."""
     urls = list()
     apis =[
-        "Gtw43BHvK8XygvtyGPa8tt0k3S5fHIlm"]
+        "ZcGJICpMgs97mq6RPfubaim3Zy7pEFdf","bE0pN0b3maxrsVQkzp7igYfHY9KceJIE"]
     #ad ="https://www.effectiveratecpm.com/ca83bzpx98?key=dee9c6f3171b614287718132222041ad"
     #ad = "https://www.profitableratecpm.com/zhzbtigdvk?key=bfdf77a1bedb6a88e866ad888aa3896b"
     ad ="https://www.profitableratecpm.com/mrrsnt73cz?key=a9264f3ab1770607dd37951c2da5963c"
     #ad ="https://www.profitableratecpm.com/bygzdn8ti5?key=ac2134fc257fcbc83800d460291ac1ab"
-    ad ="https://viinnqwx.com/dc/?blockID=381701"
-    ad="https://www.profitableratecpm.com/es8iaffr0n?key=a180891d7e00848a91909a7b8081d758"
+    ad ="https://viinnqwx.com/dc/?blockID=382404"
+    #ad="https://www.profitableratecpm.com/es8iaffr0n?key=a180891d7e00848a91909a7b8081d758"
     for api in apis:
         for _ in range(randint (3,5)):
             url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=us&render_js=1"
