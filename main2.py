@@ -2,18 +2,18 @@ import asyncio
 import httpx
 import time
 token = "sk_OIWw3O1JOZSg91rvK41nLLPXKxePYO09FTcSJt4GSPLn1y0ic0L4c9TBywdstds1"
-url="https://www.profitableratecpm.com/ziz6kzsc0s?key=ca1c1f39a7636892a713e4f321013c96"
+url="https://viidedss.com/dc/?blockID=382755"
 payload = {
     "actor": "unlocker.webunlocker",
     "proxy": {
-        "country": "IL"
+        "country": "US"
     },
     "input": {
         "url": url,
         "jsRender": {
             "enabled": True,
             "waitUntil":"domcontentloaded",
-            "instructions":[{"wait": 7000}],
+            "instructions":[{"wait": 8000}],
             "response": {
                 "type": "html",  # png or jpeg
             }
@@ -67,6 +67,6 @@ async def main():
     
   
 if __name__ == "__main__":
-    for i in range(100):
+    for i in range(1000):
       asyncio.run(main())
       print(i)
