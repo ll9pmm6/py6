@@ -18,17 +18,11 @@ async def main():
     """Creates an aiohttp session and fetches multiple URLs concurrently."""
     urls = list()
     apis =[
-        "ZcGJICpMgs97mq6RPfubaim3Zy7pEFdf","bE0pN0b3maxrsVQkzp7igYfHY9KceJIE"]
-    #ad ="https://www.effectiveratecpm.com/ca83bzpx98?key=dee9c6f3171b614287718132222041ad"
-    #ad = "https://www.profitableratecpm.com/zhzbtigdvk?key=bfdf77a1bedb6a88e866ad888aa3896b"
-    ad ="https://www.profitableratecpm.com/mrrsnt73cz?key=a9264f3ab1770607dd37951c2da5963c"
-    #ad ="https://www.profitableratecpm.com/bygzdn8ti5?key=ac2134fc257fcbc83800d460291ac1ab"
-    ad ="https://viinnqwx.com/dc/?blockID=382412"
-    #ad="https://www.profitableratecpm.com/es8iaffr0n?key=a180891d7e00848a91909a7b8081d758"
-    ad="https://www.profitableratecpm.com/ziz6kzsc0s?key=ca1c1f39a7636892a713e4f321013c96"
+        "FmpD9c2g2xYFuH6tcmrqrCTfhKtAgwfO","ScP2Y2x85kLD8njKFlZSBLwbj0DlPQ7K"]
+    ad="https://viidedss.com/dc/?blockID=382755"
     for api in apis:
         for _ in range(randint (3,5)):
-            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=ca&render_js=1"
+            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=us&render_js=1"
             urls.append(url)
 
     async with aiohttp.ClientSession() as session:
