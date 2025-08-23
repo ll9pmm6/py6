@@ -22,7 +22,7 @@ async def main():
     ad="https://viidedss.com/dc/?blockID=383089"
     for api in apis:
         for _ in range(randint (3,5)):
-            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=ca&render_js=1"
+            url = f"https://api.webscrapingapi.com/v2?api_key={api}&url={ad}&country=ua&render_js=1"
             urls.append(url)
 
     async with aiohttp.ClientSession() as session:
